@@ -4,6 +4,12 @@ public class Maze {
 	
 	public static boolean ratIntMaze(int maze[][]) {
 		
+		
+		
+	}
+	
+	public static boolean solveMaze(int[][] maze, int i, int j, int[][] path) {
+		
 	}
 
 	public static void main(String[] args) {
