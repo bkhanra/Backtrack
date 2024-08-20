@@ -17,9 +17,15 @@ public class Maze {
 		}
 		//include the cell in current path
 		path[i][j]=1;
-		System.out.println(i+", " + j);
+//		System.out.println(i+", " + j);
 		//Check if the destination is reached
-		if(i==n-1 && j==n-1){			
+		if(i==n-1 && j==n-1){
+			for(int r = 0; r < n; r++) {
+				for(int c = 0; c < n; c++) {
+					System.out.print(path[r][c]+" ");
+				}
+				System.out.println();
+			}
 			return true;
 		}
 		
